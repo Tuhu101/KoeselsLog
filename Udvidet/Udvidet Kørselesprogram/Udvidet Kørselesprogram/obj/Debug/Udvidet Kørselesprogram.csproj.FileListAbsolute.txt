@@ -12,3 +12,31 @@ C:\Users\tope\Desktop\Skole Stuff\Opgaver\Kørselsprogram\Udvidet\Udvidet Kørse
 C:\Users\tope\Desktop\Skole Stuff\Opgaver\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form3.resources
 C:\Users\tope\Desktop\Skole Stuff\Opgaver\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form4.resources
 C:\Users\tope\Desktop\Skole Stuff\Opgaver\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form5.resources
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\bin\Debug\Udvidet Kørselesprogram.exe.config
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\bin\Debug\Udvidet Kørselesprogram.exe
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\bin\Debug\Udvidet Kørselesprogram.pdb
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.csprojAssemblyReference.cache
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form1.resources
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form2.resources
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form3.resources
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form4.resources
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form5.resources
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Properties.Resources.resources
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.csproj.GenerateResource.cache
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.csproj.CoreCompileInputs.cache
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.exe
+C:\Users\tope\Desktop\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.pdb
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\bin\Debug\Udvidet Kørselesprogram.exe.config
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\bin\Debug\Udvidet Kørselesprogram.exe
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\bin\Debug\Udvidet Kørselesprogram.pdb
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.csprojAssemblyReference.cache
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form1.resources
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form2.resources
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form3.resources
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form4.resources
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Form5.resources
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet_Kørselesprogram.Properties.Resources.resources
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.csproj.GenerateResource.cache
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.csproj.CoreCompileInputs.cache
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.exe
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Udvidet\Udvidet Kørselesprogram\Udvidet Kørselesprogram\obj\Debug\Udvidet Kørselesprogram.pdb

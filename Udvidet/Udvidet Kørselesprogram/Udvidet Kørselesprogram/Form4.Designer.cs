@@ -37,12 +37,12 @@
             this.RedigerDato = new System.Windows.Forms.TextBox();
             this.RedigerCancel = new System.Windows.Forms.Button();
             this.RedigerOK = new System.Windows.Forms.Button();
-            this.RedigerNavn = new System.Windows.Forms.ComboBox();
-            this.togTUdividetDataSet = new Udvidet_Kørselesprogram.TogTUdividetDataSet();
             this.brugerDataBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.togTUdividetDataSet = new Udvidet_Kørselesprogram.TogTUdividetDataSet();
             this.brugerDataTableAdapter = new Udvidet_Kørselesprogram.TogTUdividetDataSetTableAdapters.BrugerDataTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.togTUdividetDataSet)).BeginInit();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.brugerDataBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.togTUdividetDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // RedigerStamData
@@ -90,7 +90,7 @@
             this.RedgierNrPlade.Location = new System.Drawing.Point(405, 235);
             this.RedgierNrPlade.Name = "RedgierNrPlade";
             this.RedgierNrPlade.Size = new System.Drawing.Size(136, 20);
-            this.RedgierNrPlade.TabIndex = 12;
+            this.RedgierNrPlade.TabIndex = 3;
             // 
             // RedigerDato
             // 
@@ -98,57 +98,56 @@
             this.RedigerDato.Location = new System.Drawing.Point(405, 183);
             this.RedigerDato.Name = "RedigerDato";
             this.RedigerDato.Size = new System.Drawing.Size(136, 20);
-            this.RedigerDato.TabIndex = 11;
+            this.RedigerDato.TabIndex = 1;
             // 
             // RedigerCancel
             // 
             this.RedigerCancel.Location = new System.Drawing.Point(299, 277);
             this.RedigerCancel.Name = "RedigerCancel";
             this.RedigerCancel.Size = new System.Drawing.Size(100, 23);
-            this.RedigerCancel.TabIndex = 10;
+            this.RedigerCancel.TabIndex = 5;
             this.RedigerCancel.Text = "Cancel";
             this.RedigerCancel.UseVisualStyleBackColor = true;
+            this.RedigerCancel.Click += new System.EventHandler(this.RedigerCancel_Click);
             // 
             // RedigerOK
             // 
             this.RedigerOK.Location = new System.Drawing.Point(420, 277);
             this.RedigerOK.Name = "RedigerOK";
             this.RedigerOK.Size = new System.Drawing.Size(121, 23);
-            this.RedigerOK.TabIndex = 9;
+            this.RedigerOK.TabIndex = 4;
             this.RedigerOK.Text = "Ok";
             this.RedigerOK.UseVisualStyleBackColor = true;
             this.RedigerOK.Click += new System.EventHandler(this.RedigerOK_Click);
-            // 
-            // RedigerNavn
-            // 
-            this.RedigerNavn.DataSource = this.brugerDataBindingSource;
-            this.RedigerNavn.DisplayMember = "BrugerNavn";
-            this.RedigerNavn.FormattingEnabled = true;
-            this.RedigerNavn.Location = new System.Drawing.Point(405, 209);
-            this.RedigerNavn.Name = "RedigerNavn";
-            this.RedigerNavn.Size = new System.Drawing.Size(136, 21);
-            this.RedigerNavn.TabIndex = 18;
-            // 
-            // togTUdividetDataSet
-            // 
-            this.togTUdividetDataSet.DataSetName = "TogTUdividetDataSet";
-            this.togTUdividetDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // brugerDataBindingSource
             // 
             this.brugerDataBindingSource.DataMember = "BrugerData";
             this.brugerDataBindingSource.DataSource = this.togTUdividetDataSet;
             // 
+            // togTUdividetDataSet
+            // 
+            this.togTUdividetDataSet.DataSetName = "TogTUdividetDataSet";
+            this.togTUdividetDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // brugerDataTableAdapter
             // 
             this.brugerDataTableAdapter.ClearBeforeFill = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(405, 209);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(136, 20);
+            this.textBox1.TabIndex = 18;
             // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.RedigerNavn);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.RedigerStamData);
             this.Controls.Add(this.NrPladeLabel);
             this.Controls.Add(this.NavnLabel);
@@ -160,8 +159,8 @@
             this.Name = "Form4";
             this.Text = "Form4";
             this.Load += new System.EventHandler(this.Form4_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.togTUdividetDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.brugerDataBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.togTUdividetDataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,9 +176,9 @@
         private System.Windows.Forms.TextBox RedigerDato;
         private System.Windows.Forms.Button RedigerCancel;
         private System.Windows.Forms.Button RedigerOK;
-        private System.Windows.Forms.ComboBox RedigerNavn;
         private TogTUdividetDataSet togTUdividetDataSet;
         private System.Windows.Forms.BindingSource brugerDataBindingSource;
         private TogTUdividetDataSetTableAdapters.BrugerDataTableAdapter brugerDataTableAdapter;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

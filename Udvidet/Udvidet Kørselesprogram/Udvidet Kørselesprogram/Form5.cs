@@ -12,17 +12,20 @@ using System.Windows.Forms;
 
 namespace Udvidet_Kørselesprogram
 {
+    
     public partial class Form5 : Form
     {
+        private string BrugerId;
+        
+        // This is the Connection string that bindes the SQL Database together with the C#. //
         SqlConnection Connect = new SqlConnection("Data Source=10.0.4.115;Initial Catalog=TogTUdividet;User ID=Admin;Password=Passw0rd");
-        SqlCommand jvt;
-        SqlDataAdapter Adapter;
-        DataTable DT = new DataTable();
-        public Form5()
+
+        public Form5(string BrugerIdentity)
         {
             InitializeComponent();
+            BrugerId = BrugerIdentity;
         }
-
+        // This is the "Ok" button for the Opret Ny Log tab. //
         private void KørselsOK_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(Opgave_Formål.Text) || string.IsNullOrEmpty(KørteKM.Text))
@@ -31,25 +34,32 @@ namespace Udvidet_Kørselesprogram
             string Time = Date.ToString("yyyy-MM-dd HH:mm:ss");
             Opgave_Formål.Focus();
 
-
-
+            // Here i try to insert the information from the user into the database. //
             try
             {
                 Connect.Open();
-                SqlCommand cmd = new SqlCommand("INSERT INTO NyKørselslog(Dato,OgaveFormål,KmKørt)  VALUES(@DATO, @OPFO, @KMK)", Connect);
-                cmd.Parameters.AddWithValue("@DATO", Time);
-                cmd.Parameters.AddWithValue("@OPFO", Opgave_Formål.Text);
-                cmd.Parameters.AddWithValue("@KMK", KørteKM.Text);
+                SqlCommand cmd = new SqlCommand("Insert into NyKørselslog values('" + BrugerId + "', '" + Time + "', '" + Opgave_Formål.Text + "', '" + KørteKM.Text + "')", Connect );
+                SqlCommand cmd2 = new SqlCommand("Update BrugerData set TotalKmDriven= (Select SUM(KmKørt) From NyKørselslog Where BrugerID= '" + BrugerId + "') Where BrugerID= '" + BrugerId + "'", Connect);
                 cmd.ExecuteNonQuery();
+                cmd2.ExecuteNonQuery();
                 MessageBox.Show("Data Inserted Successfully.");
                 Connect.Close();
             }
+            // If it is not possible to insert the user information in the database the program vil give an error message. //
             catch
             {
                 MessageBox.Show("Fejl!");
             }
             Opgave_Formål.Clear();
             KørteKM.Clear();
+        }
+
+        private void Form5_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'togTUdividetDataSet.NyKørselslog' table. You can move, or remove it, as needed.
+        //    this.nyKørselslogTableAdapter.Fill(this.togTUdividetDataSet.NyKørselslog);
+            // TODO: This line of code loads data into the 'togTUdividetDataSet.BrugerData' table. You can move, or remove it, as needed.
+            this.brugerDataTableAdapter.Fill(this.togTUdividetDataSet.BrugerData);
         }
     }
 }
