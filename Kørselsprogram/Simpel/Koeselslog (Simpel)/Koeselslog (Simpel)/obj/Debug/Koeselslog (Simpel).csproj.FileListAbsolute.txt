@@ -1,0 +1,10 @@
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\bin\Debug\Koeselslog (Simpel).exe.config
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\bin\Debug\Koeselslog (Simpel).exe
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\bin\Debug\Koeselslog (Simpel).pdb
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\obj\Debug\Koeselslog (Simpel).csprojAssemblyReference.cache
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\obj\Debug\Koeselslog__Simpel_.Form1.resources
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\obj\Debug\Koeselslog__Simpel_.Properties.Resources.resources
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\obj\Debug\Koeselslog (Simpel).csproj.GenerateResource.cache
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\obj\Debug\Koeselslog (Simpel).csproj.CoreCompileInputs.cache
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\obj\Debug\Koeselslog (Simpel).exe
+C:\Users\tope\Desktop\Alt v2\Kørselsprogram\Simpel\Koeselslog (Simpel)\Koeselslog (Simpel)\obj\Debug\Koeselslog (Simpel).pdb
